@@ -1,0 +1,88 @@
+    body {
+        display: flex;
+        flex-direction: row;
+        color: var(--toned-down-white);
+        font-family: "Montserrat", sans-serif;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #6a3b98;
+    }
+    
+    .main-container {
+        margin-top: 5%;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 8em;
+        height: 350px;
+        border: 4px solid white;
+        width: 400px;
+        border-radius: 5px;
+    }
+    
+    .heading-container {
+        margin-left: 3em;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    
+    .input-cotainer {
+        padding: 3em;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+        padding: 1.5px;
+        margin-left: 3em;
+    }
+    
+    .active,
+    button:hover {
+        background-color: rgb(63, 145, 153);
+        color: white;
+    }
+    
+    input {
+        height: 3em;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px black;
+        width: 20em;
+        font-weight: bolder;
+    }
+    
+    input:active {
+        background-color: rgb(63, 145, 153);
+    }
+    
+    button {
+        align-items: center;
+        padding: 10px 3em;
+        font-size: 1.em;
+        font-family: sans-serif;
+        background-color: #fff;
+        transition: 0.4s;
+        border: none;
+        font-weight: bolder;
+        margin-left: 11em;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px black;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    
+    span {
+        margin-top: 2em;
+    }
+    
+     :root {
+        --bg-main-color: #1f2029;
+        --toned-down-white: #f1f1f1;
+        --highlight-main: #8167a9;
+        --hover-main: #6d578e;
+        --active-main: #614e7d;
+    }
+    /*first section start, wrapper formatting*/
+    /* #de8890 */
