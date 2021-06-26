@@ -7,8 +7,8 @@ function palindromeChecker() {
 
     }
     if (input[i] == input[length - 1 - i]) {
-        document.querySelector('span').innerHTML = "Oh Yes, Given word is a Palidrome";
+        document.querySelector('span').innerHTML = "Oh Yes, Given word is a Palindrome";
     } else {
-        document.querySelector('span').innerHTML = "NO, Given word is not a Palidrome";
+        document.querySelector('span').innerHTML = "NO, Given word is not a Palindrome";
     }
 }
